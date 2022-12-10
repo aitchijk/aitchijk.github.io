@@ -11,8 +11,8 @@
 # -----------------
 en: &DEFAULT_EN
   header:
-    title: Welcome to our Studio!
-    text: It's Nice To Meet You
+    title: hijk solutions
+    text: Helping Small Businesses Grow
     button: Tell Me More
     buttonlink: "#services"
 
