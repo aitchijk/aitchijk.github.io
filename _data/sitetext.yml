@@ -18,11 +18,11 @@ en: &DEFAULT_EN
 
   services:
     title: "Services"
-    text: "We are a developing marketing agency with sprawling roots in theoretical knowledge. As we help clients build their businesses, our expertise in the areas we serve them will continue to evolve. As we help you grow your business, we grow with you."
+    text: "We are a developing marketing agency with sprawling roots in theoretical knowledge. As we help clients build their businesses, our expertise in the areas we serve them will continue to evolve. We don't take a back seat in helping you build your dream business. Our belief is that as we help you grow your business, we will grow with you."
     section: services
     list:
       - title: "Brand Building"
-        desc: "A good product without a brand is as likely to grow as a seed in the ocean. We can lay the ground work for you to help you develop your values and guiding principles to foster the growth of your business"
+        desc: "A good product without a brand is as likely to grow as a seed in the ocean. We can lay the ground work for you to help you develop your values and guiding principles to foster the growth of your business."
         icon: fas fa-sharp fa-solid fa-seedling #find more at https://fontawesome.com/icons
       - title: "Responsive Design"
         desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
