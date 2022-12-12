@@ -9,7 +9,7 @@ const Header = () => {
     return (
         <header className='masthead'>
             <Container>
-                <Row className='intro-text justify-content-center'>
+                <Row className='justify-content-center'>
                     <Row className='intro-lead-in justify-content-center'>
                         Helping Small Businesses Grow!
                     </Row>
