@@ -25,6 +25,7 @@ const Team = () => {
                             <Col key={i} className='sm-4 team-member text-center'>
                                 <a href={person.link}>
                                     <img
+                                        alt={person.name}
                                         className='mx-auto rounded-circle'
                                         src={person.image}
                                     />
