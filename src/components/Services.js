@@ -13,8 +13,8 @@ const Services = () => {
             <Container>
                 <Row >
                     <Col className='lg-12 text-center'>
-                        <h2 className='section-heading text-uppercase'>Services</h2>
-                        <h3 className='section-subheading text-muted'>Lorem ipsum</h3>
+                        <h2 className='section-heading text-uppercase'>{content.services.heading.name}</h2>
+                        <h3 className='section-subheading text-muted'>{content.services.subheading.name}</h3>
                     </Col>
                 </Row>
                 <Row xs={1} md={2} lg={4}>
