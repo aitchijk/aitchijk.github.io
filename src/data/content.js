@@ -1,5 +1,9 @@
 import { faTwitter, faFacebookF, faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
 import { faHamburger } from '@fortawesome/free-solid-svg-icons';
+import { faRocketLaunch } from '@fortawesome/free-solid-svg-icons';
+import { faPen } from '@fortawesome/free-solid-svg-icons';
+import { faCoins } from '@fortawesome/free-solid-svg-icons';
+import { faMegaphone } from '@fortawesome/free-solid-svg-icons';
 
 const content = {
     'navbar': {
@@ -48,7 +52,7 @@ const content = {
             {
                 'name': 'Branding',
                 'text': 'Whether you already have an established brand or are looking to build it from the ground up, we can help.',
-                'pic': farocketlaunch
+                'pic': faRocketLaunch
             },
             {
                 'name': 'Design',
@@ -58,12 +62,12 @@ const content = {
             {
                 'name': 'Public Relations',
                 'text': "While you manage your business, we strive to help you manage your reputation. Public relations is more than social media, it's your relationship to your customers.",
-                'pic': faLinkedinIn
+                'pic': faMegaphone
             },
             {
                 'name': 'Marketing',
                 'text': "Image and reputation help towards your overall success as a business, but it all funnels down to marketing. Email marketing, paid advertising, word of mouth, and earned coverage are areas of knowledge that we excel at.",
-                'pic': faHamburger
+                'pic': faCoins
             }
         ]
     },
