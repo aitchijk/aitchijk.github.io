@@ -3,6 +3,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Home from './Home';
 import Legal from './Legal';
 import Page404 from './Page404';
+import ServicePage, {loader as servicePageLoader} from './ServicePage';
 
 const router = createBrowserRouter([
     {
@@ -13,6 +14,11 @@ const router = createBrowserRouter([
     {
         path: '/legal',
         element: <Legal />
+    },
+    {
+        path: '/services/:serviceSlug',
+        loader: servicePageLoader,
+        element: <ServicePage />
     }
 ])
 

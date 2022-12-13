@@ -52,7 +52,13 @@ const content = {
             {
                 'name': 'Branding',
                 'text': 'Whether you already have an established brand or are looking to build it from the ground up, we can help.',
-                'pic': faRocket
+                'pic': faRocket,
+                'slug': 'branding',
+                'page': {
+                    'heading': 'Branding',
+                    'subheading': 'Lorem ipsum',
+                    'text': 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.'
+                }
             },
             {
                 'name': 'Design',
