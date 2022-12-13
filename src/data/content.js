@@ -1,6 +1,6 @@
 import { faTwitter, faFacebookF, faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
 import { faHamburger } from '@fortawesome/free-solid-svg-icons';
-import { faRocketLaunch } from '@fortawesome/free-solid-svg-icons';
+import { faRocket } from '@fortawesome/free-solid-svg-icons';
 import { faPen } from '@fortawesome/free-solid-svg-icons';
 import { faCoins } from '@fortawesome/free-solid-svg-icons';
 import { faMegaphone } from '@fortawesome/free-solid-svg-icons';
@@ -52,12 +52,12 @@ const content = {
             {
                 'name': 'Branding',
                 'text': 'Whether you already have an established brand or are looking to build it from the ground up, we can help.',
-                'pic': faRocketLaunch
+                'pic': faRocket
             },
             {
                 'name': 'Design',
                 'text': 'From billboards to banners, our team of designers are eager to help you find the picture that tells you more than a million words ever could.',
-                'pic': fapen
+                'pic': faPen
             },
             {
                 'name': 'Public Relations',
