@@ -3,7 +3,7 @@ import { faHamburger } from '@fortawesome/free-solid-svg-icons';
 import { faRocket } from '@fortawesome/free-solid-svg-icons';
 import { faPen } from '@fortawesome/free-solid-svg-icons';
 import { faCoins } from '@fortawesome/free-solid-svg-icons';
-import { faMegaphone } from '@fortawesome/free-solid-svg-icons';
+import { faBullhorn } from '@fortawesome/free-solid-svg-icons';
 
 const content = {
     'navbar': {
@@ -62,7 +62,7 @@ const content = {
             {
                 'name': 'Public Relations',
                 'text': "While you manage your business, we strive to help you manage your reputation. Public relations is more than social media, it's your relationship to your customers.",
-                'pic': faMegaphone
+                'pic': faBullhorn
             },
             {
                 'name': 'Marketing',
