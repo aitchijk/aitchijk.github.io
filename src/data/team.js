@@ -1,7 +1,7 @@
 const team = [
     {
         "name": "Harith Khairul",
-        "role": "Founder",
+        "role": "Proprietor",
         "image": require("../img/HarithKhairul.jpg"),
         "link": 'harith-khairul',
         "social": {
