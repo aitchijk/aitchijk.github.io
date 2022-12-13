@@ -23,7 +23,7 @@ const Services = () => {
                             <Col key={i} className='text-center justify-content-center'>
                                 <i className='service-logo'><FontAwesomeIcon icon={service.pic} /></i>
                                 <h4>{service.name}</h4>
-                                <p className='text-muted'>{service.text}</p>
+                                <p className='mx-3'>{service.text}</p>
                             </Col>
                         )
                     })}
