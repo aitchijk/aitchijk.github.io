@@ -3,6 +3,7 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import './page.css';
+import content from '../data/content';
 
 const About = () => {
     return (
@@ -10,13 +11,13 @@ const About = () => {
             <Container>
                 <Row>
                     <Col className='lg-12 text-center'>
-                        <h2 className='section-heading text-uppercase'>About us</h2>
-                        <h3 className='section-subheading text-muted'>our story</h3>
+                        <h2 className='section-heading text-uppercase'>{content.about.heading.name}</h2>
+                        <h3 className='section-subheading text-muted'>{content.about.subheading.name}</h3>
                     </Col>
                 </Row>
                 <Row>
                     <Col className='lg-8 mx-auto text-center text-muted'>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.
+                        {content.about.details.text}
                     </Col>
                 </Row>
             </Container>

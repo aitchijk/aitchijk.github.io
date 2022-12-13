@@ -4,6 +4,7 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Button from 'react-bootstrap/Button';
 import './Header.css';
+import content from '../data/content';
 
 const Header = () => {
     return (
@@ -11,15 +12,15 @@ const Header = () => {
             <Container>
                 <Row className='justify-content-center'>
                     <Row className='intro-lead-in justify-content-center'>
-                        Helping Small Businesses Grow!
+                        {content.header.leadIn.name}
                     </Row>
                     <Row className='intro-heading justify-content-center'>
-                        HIJK SOLUTIONS
+                        {content.header.heading.name}
                     </Row>
                     <Row className='justify-content-center'>
                         <Col>
-                            <Button className='header-btn'>
-                                TELL ME MORE
+                            <Button className='header-btn' href={content.header.btn.href}>
+                                {content.header.btn.name}
                             </Button>
                         </Col>
                     </Row>

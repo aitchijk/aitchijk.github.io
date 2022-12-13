@@ -8,6 +8,7 @@ import './Team.css';
 import team from '../data/team';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faTwitter, faFacebookF, faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
+import content from '../data/content';
 
 const Team = () => {
     return (
@@ -15,8 +16,8 @@ const Team = () => {
             <Container>
                 <Row>
                     <Col className='lg-12 text-center'>
-                        <h2 className='section-heading text-uppercase'>Our Amazing Team</h2>
-                        <h3 className='section-subheading text-muted'>Lorem ipsum dolor sit amet consectetur.</h3>
+                        <h2 className='section-heading text-uppercase'>{content.team.heading.name}</h2>
+                        <h3 className='section-subheading text-muted'>{content.team.subheading.name}</h3>
                     </Col>
                 </Row>
                 <Row>
