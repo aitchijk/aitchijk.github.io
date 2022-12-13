@@ -21,7 +21,9 @@ const Services = () => {
                     {content.services.items.map((service, i) => {
                         return(
                             <Col key={i} className='text-center justify-content-center'>
-                                <i className='service-logo'><FontAwesomeIcon icon={service.pic} /></i>
+                                <a href={'/services/' + service.slug}>
+                                    <i className='service-logo'><FontAwesomeIcon icon={service.pic} /></i>
+                                </a>
                                 <h4>{service.name}</h4>
                                 <p className='mx-3'>{service.text}</p>
                             </Col>
