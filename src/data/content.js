@@ -82,7 +82,7 @@ const content = {
             'name': 'About Us'
         },
         'subheading': {
-            'name': 'our story'
+            'name': 'Our History'
         },
         'details': {
             'text': "Built upon the love of small bands, we here at HIJK Solutions understand what it means to have something amazing, but not enough listeners. In his undergraduate years, Harith Khairul was the Treasurer of the Music Productions Club where he helped organize and plan open mic nights. These were events where dozens of artists beginning their music careers hope to find a space to play their music for people to hear. We hope to help you find your space for your business' music to be heard."
