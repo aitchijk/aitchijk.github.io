@@ -1,9 +1,9 @@
-import { faTwitter, faFacebookF, faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
-import { faHamburger } from '@fortawesome/free-solid-svg-icons';
-import { faRocket } from '@fortawesome/free-solid-svg-icons';
-import { faPen } from '@fortawesome/free-solid-svg-icons';
-import { faCoins } from '@fortawesome/free-solid-svg-icons';
-import { faBullhorn } from '@fortawesome/free-solid-svg-icons';
+import {
+    faRocket,
+    faPen,
+    faCoins,
+    faBullhorn
+} from '@fortawesome/free-solid-svg-icons';
 
 const content = {
     'navbar': {
@@ -63,17 +63,35 @@ const content = {
             {
                 'name': 'Design',
                 'text': 'From billboards to banners, our team of designers are eager to help you find the picture that tells you more than a million words ever could.',
-                'pic': faPen
+                'pic': faPen,
+                'slug': 'design',
+                'page': {
+                    'heading': 'Design',
+                    'subheading': 'Lorem ipsum',
+                    'text': 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.'
+                }
             },
             {
                 'name': 'Public Relations',
                 'text': "While you manage your business, we strive to help you manage your reputation. Public relations is more than social media, it's your relationship to your customers.",
-                'pic': faBullhorn
+                'pic': faBullhorn,
+                'slug': 'public-relations',
+                'page': {
+                    'heading': 'Public Relations',
+                    'subheading': 'Lorem ipsum',
+                    'text': 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.'
+                }
             },
             {
                 'name': 'Marketing',
                 'text': "Image and reputation help towards your overall success as a business, but it all funnels down to marketing. Email marketing, paid advertising, word of mouth, and earned coverage are areas of knowledge that we excel at.",
-                'pic': faCoins
+                'pic': faCoins,
+                'slug': 'marketing',
+                'page': {
+                    'heading': 'Marketing',
+                    'subheading': 'Lorem ipsum',
+                    'text': 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.'
+                }
             }
         ]
     },
