@@ -1,5 +1,6 @@
 import React from 'react';
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import Blogs from './Blogs';
 import Home from './Home';
 import Legal from './Legal';
 import Page404 from './Page404';
@@ -19,6 +20,10 @@ const router = createBrowserRouter([
         path: '/services/:serviceSlug',
         loader: servicePageLoader,
         element: <ServicePage />
+    },
+    {
+        path: '/blogs',
+        element: <Blogs />
     }
 ])
 
