@@ -1,3 +1,27 @@
+@property --fadeOpacity {
+    syntax: '<number>';
+    initial-value: 0.7;
+    inherits: false;
+}
+
+@keyframes fade-in {
+    from {
+        background-color: #212529;
+    }
+    to {
+        background-color: rgba(33, 37, 41, var(--fadeOpacity));
+    }
+}
+
+@keyframes fade-out {
+    from {
+        background-color: rgba(33, 37, 41, var(--fadeOpacity));
+    }
+    to {
+        background-color: #212529;
+    }
+}
+
 .service-logo{
     width: 100px;
     height: 100px;
@@ -8,8 +32,16 @@
     align-items: center;
     font-size: 50px;
     color: white;
-    background-color: #800200;
+    background-color: #212529;
     margin: auto;
+    animation-name: fade-out;
+    animation-duration: 0.15s;
+}
+
+.service-logo:hover{
+    background-color: rgba(33, 37, 41, var(--fadeOpacity));
+    animation-name: fade-in;
+    animation-duration: 0.15s;
 }
 
 #services h4{

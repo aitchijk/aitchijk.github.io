@@ -5,3 +5,7 @@
 /* .navbar-link {
     font-family: 'Comfortaa', monospace;
 } */
+
+.nav-link:hover {
+    color: #ecba24!important;
+}

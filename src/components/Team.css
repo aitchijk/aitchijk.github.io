@@ -1,17 +1,23 @@
-@keyframes fade-in {
+@property --fadeColor {
+    syntax: '<color>';
+    initial-value: #ecba24;
+    inherits: false;
+}
+
+@keyframes fade-in-border {
     from {
         box-shadow: none;
         opacity: 1;
     }
     to {
-        box-shadow: 0px 0px 1px 5px #800200;
+        box-shadow: 0px 0px 1px 5px var(--fadeColor);
         opacity: 0.7;
     }
 }
 
-@keyframes fade-out {
+@keyframes fade-out-border {
     from {
-        box-shadow: 0px 0px 1px 5px #800200;
+        box-shadow: 0px 0px 1px 5px var(--fadeColor);
         opacity: 0.7;
     }
     to {
@@ -25,14 +31,14 @@
     height: 225px;
     object-fit: cover;
     border: none;
-    animation-name: fade-out;
+    animation-name: fade-out-border;
     animation-duration: 0.15s;
 }
 
 .team-member img:hover {
-    box-shadow: 0px 0px 1px 5px #800200;
+    box-shadow: 0px 0px 1px 5px var(--fadeColor);
     opacity: 0.7;
-    animation-name: fade-in;
+    animation-name: fade-in-border;
     animation-duration: 0.15s;
     cursor: pointer;
 }

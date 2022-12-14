@@ -8,7 +8,8 @@ import {
 const content = {
     'navbar': {
         'brand': {
-            'name': 'hijk solutions'
+            'name': 'hijk solutions',
+            'pic': require("../img/hijksolutions_2.png")
         },
         'links': [
             {
@@ -25,7 +26,7 @@ const content = {
             },
             {
                 'name': 'Blog',
-                'href': '/#blog'
+                'href': '/blogs'
             }
         ]
     },
