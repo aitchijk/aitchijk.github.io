@@ -13,6 +13,10 @@ const router = createBrowserRouter([
         errorElement: <Page404 />
     },
     {
+        path: '/blogs',
+        element: <Blogs />
+    },
+    {
         path: '/legal',
         element: <Legal />
     },
@@ -20,10 +24,6 @@ const router = createBrowserRouter([
         path: '/services/:serviceSlug',
         loader: servicePageLoader,
         element: <ServicePage />
-    },
-    {
-        path: '/blogs',
-        element: <Blogs />
     }
 ])
 
