@@ -9,8 +9,8 @@ import { useNavigate } from "react-router-dom";
 
 const Blogs = () => {
     const navigate = useNavigate();
-    const cardOnClick = () => {
-        navigate('#');
+    const cardOnClick = (slug) => {
+        navigate(slug);
     };
 
     return (
@@ -25,7 +25,7 @@ const Blogs = () => {
                 {blogs.items.map((item, i) => {
                     return(
                         <Col className='my-2 d-flex justify-content-center' key={i}>
-                            <Card onClick={cardOnClick} style={{ width: '20rem', cursor: "pointer" }}>
+                            <Card onClick={() => {cardOnClick(item.slug)}} style={{ width: '20rem', cursor: "pointer" }}>
                                 <Card.Img variant='top' src={item.pic} />
                                 <Card.Body>
                                     <Card.Title>{item.title}</Card.Title>
