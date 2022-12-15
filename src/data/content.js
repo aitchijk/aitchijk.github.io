@@ -32,10 +32,10 @@ const content = {
     },
     'header': {
         'leadIn': {
-            'name': 'Helping Small Businesses Grow!'
+            'name': 'Build your Brand to Work for You'
         },
         'heading': {
-            'name': 'HIJK SOLUTIONS'
+            'name': 'hijksolutions'
         },
         'btn': {
             'name': 'TELL ME MORE',
@@ -47,12 +47,12 @@ const content = {
             'name': 'Services'
         },
         'subheading': {
-            'name': 'Lorem ipsum'
+            'name': "Agencies offering one-size-fits-all packages don't realize that each client brings their own marketing challenges. They may charge you for services that you find easier to do yourself or bill you for services you don't need. We understand that each of our clients' needs are different and unique. Because of that, our service offerings will be built around you. After a discovery call, we develop a free audit of your marketing efforts and think of creative solutions to implement for you, cutting out the fluff and servicing you for what you truly need. Contact us to discover how we can find a solution that works for you."
         },
         'items': [
             {
                 'name': 'Branding',
-                'text': 'Whether you already have an established brand or are looking to build it from the ground up, we can help.',
+                'text': "A brand is more than a logo, it's your identity. Whether you already have an established brand or are looking to build it from the ground up, we can help you implement it all throughout your channels and create a concise and cohesive identity.",
                 'pic': faRocket,
                 'slug': 'branding',
                 'page': {
@@ -63,7 +63,7 @@ const content = {
             },
             {
                 'name': 'Design',
-                'text': 'From billboards to banners, our team of designers are eager to help you find the picture that tells you more than a million words ever could.',
+                'text': 'Utilizing AI-powered tools, we are able to brainstorm design ideas that are more intricate at faster speeds than a full team of artists. From billboards to banners, our team of designers are eager to help you find the picture that tells you more than a million words ever could.',
                 'pic': faPen,
                 'slug': 'design',
                 'page': {
@@ -74,7 +74,7 @@ const content = {
             },
             {
                 'name': 'Public Relations',
-                'text': "While you manage your business, we strive to help you manage your reputation. Public relations is more than social media, it's your relationship to your customers.",
+                'text': "Personally fostering your social presence takes effort and time away from your already busy hands. While you manage your business, we strive to help you manage your reputation. Public relations extends further than social media, it's your relationship to your customers.",
                 'pic': faBullhorn,
                 'slug': 'public-relations',
                 'page': {
@@ -85,7 +85,7 @@ const content = {
             },
             {
                 'name': 'Marketing',
-                'text': "Image and reputation help towards your overall success as a business, but it all funnels down to marketing. Email marketing, paid advertising, word of mouth, and earned coverage are areas of knowledge that we excel at.",
+                'text': "While image and reputation help towards your overall success as a business, it all funnels down to marketing. Email marketing, paid advertising, word of mouth, and earned coverage are areas of knowledge that we excel at.",
                 'pic': faCoins,
                 'slug': 'marketing',
                 'page': {
@@ -112,7 +112,7 @@ const content = {
             'name': 'Our Amazing Team'
         },
         'subheading': {
-            'name': 'Lorem ipsum dolor sit amet consectetur.'
+            'name': "With the knowledge and skills built to help any company, HIJK Solutions' team is built to build your brand to work for you. Discover each team member's individual repertoires to visualize the breadth of industry skills that we can bring to your business."
         }
     }
 };
