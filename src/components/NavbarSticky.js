@@ -7,7 +7,7 @@ import content from '../data/content';
 
 const NavbarSticky = () => {
     return (
-        <Navbar bg='black' variant='black' expand='lg' fixed='top'>
+        <Navbar bg='dark' variant='dark' expand='lg' fixed='top'>
             <Container>
                 <Navbar.Brand className='navbar-brand' href='/'>
                     <img
