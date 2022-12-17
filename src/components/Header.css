@@ -27,13 +27,13 @@
 }
 
 .header-btn {
-    background-color: #ecba24!important;
-    border-color: #ecba24!important;
+    background-color: #424649!important;
+    border-color: #424649!important;
     font-weight: bold!important;
     padding: 15px 25px!important;
 }
 
 .header-btn:hover {
-    background-color: #424649 !important;
-    border-color: #424649 !important;
+    background-color: #ecba24 !important;
+    border-color: #ecba24 !important;
 }
