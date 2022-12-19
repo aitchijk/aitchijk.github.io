@@ -47,3 +47,9 @@
 #services h4{
     margin-top: 15px;
 }
+
+.service-border {
+    border: 1px solid black;
+    border-radius: 15px;
+    padding-top: 15px;
+}

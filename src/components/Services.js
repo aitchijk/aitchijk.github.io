@@ -20,7 +20,7 @@ const Services = () => {
                 <Row xs={1} md={2} lg={4}>
                     {content.services.items.map((service, i) => {
                         return(
-                            <Col key={i} className='text-center justify-content-center'>
+                            <Col key={i} className='text-center justify-content-center service-border'>
                                 <a href={'/services/' + service.slug}>
                                     <i className='service-logo'><FontAwesomeIcon icon={service.pic} /></i>
                                 </a>
