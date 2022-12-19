@@ -24,6 +24,12 @@
     font-weight: 700;
     line-height: 50px;
     margin-bottom: 25px;
+    display: inline-block!important;
+}
+
+.intro-heading span{
+    color: #ecba24;
+    padding: 0px;
 }
 
 .header-btn {

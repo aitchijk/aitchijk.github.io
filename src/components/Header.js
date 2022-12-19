@@ -15,7 +15,9 @@ const Header = () => {
                         {content.header.leadIn.name}
                     </Row>
                     <Row className='intro-heading justify-content-center'>
-                        {content.header.heading.name}
+                        {content.header.heading.name.substring(0,4)}
+                        <span>{content.header.heading.name.substring(4)}
+                        </span>
                     </Row>
                     <Row className='justify-content-center'>
                         <Col>

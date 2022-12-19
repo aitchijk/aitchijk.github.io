@@ -39,7 +39,7 @@ const content = {
         },
         'btn': {
             'name': 'TELL ME MORE',
-            'href': '#'
+            'href': '#services'
         }
     },
     'services': {
