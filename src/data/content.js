@@ -63,7 +63,7 @@ const content = {
             },
             {
                 'name': 'Design',
-                'text': 'Utilizing AI-powered tools, we are able to brainstorm design ideas that are more intricate at faster speeds than a full team of artists. From billboards to banners, our team of designers are eager to help you find the picture that tells you more than a million words ever could.',
+                'text': 'Discussing and sharing within our team, we are able to brainstorm design ideas that are more intricate at faster speeds than any single person can. From billboards to banners, designing department is eager to help you find the picture that tells you more than a million words ever could.',
                 'pic': faPen,
                 'slug': 'design',
                 'page': {
