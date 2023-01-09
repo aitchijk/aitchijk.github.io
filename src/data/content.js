@@ -104,7 +104,7 @@ const content = {
             'name': 'Our History'
         },
         'details': {
-            'text': "Built upon the love of small bands, we here at HIJK Solutions understand what it means to have something amazing, but not enough listeners. In his undergraduate years, Harith Khairul was the Treasurer of the Music Productions Club where he helped organize and plan open mic nights. These were events where dozens of artists beginning their music careers hope to find a space to play their music for people to hear. We hope to help you find your space for your business' music to be heard."
+            'text': "Built upon the love of small bands, we here at hijkSolutions understand what it means to have something amazing, but not have enough listeners. In his undergraduate years, Harith Khairul was the Treasurer of the Music Productions Club where he helped organize and plan open mic nights. These were events where dozens of artists beginning their music careers hope to find a space to play their music for people to hear. We hope to help you find your space for your business' song to be heard."
         }
     },
     'team': {
@@ -112,7 +112,7 @@ const content = {
             'name': 'Our Amazing Team'
         },
         'subheading': {
-            'name': "With the knowledge and skills built to help any company, HIJK Solutions' team is built to build your brand to work for you. Discover each team member's individual repertoires to visualize the breadth of industry skills that we can bring to your business."
+            'name': "With the knowledge and skills built to help any company, hijkSolutions' team is built to build your brand to work for you. Discover each team member's individual repertoires to visualize the breadth of industry skills that we can bring to your business."
         }
     }
 };
